@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Pixelify+Sans:wght@400..700&family=Smokum&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&family=Zeyada&display=swap');
+
+
+
+
+body {
+    margin: 0%;
+    background-color: #FFFBE6;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+#header {
+    background-image: url(header.png);
+    background-size: contain;
+    height: 300px;
+    padding: 20px;
+    color: white;
+    font-family: "Smokum", serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+#main {
+    text-align: center;
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+}
+
+#block1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFD400;
+    height: 500px;
+    align-items: center;
+}
+
+
+
+p {
+  font-family: "Carrois Gothic SC", sans-serif;
+    font-size: 30px;
+}
+
+p.homepls { 
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+font-family: "Smokum", serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 0px;
+    background-color: white;
+    width: 140px;
+    padding: 4px;
+}
+
+ h2 {
+    font-family: "Smokum", serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+ }
+
+
+.introtext {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#footer {
+    background-image: url(footer.png);
+    background-size: contain;
+    height: 210px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+      font-family: "Carrois Gothic SC", sans-serif;
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border-radius: 1px;
+background-color: #8A4DFF;
+color: white;
+font-family: "Carrois Gothic SC", sans-serif;
+font-weight: bold;
+font-size: 20px;
+border-width: 0px;
+}
+
+
+
+#lastyear {
+    margin: 30px;
+}
+
+
+
+#programmtable {
+    color: white;
+     font-family: "Carrois Gothic SC", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 40px;
+}
+
+table#programm {
+    width: min-content;
+        background-color: rgb(12, 10, 111);
+        padding: 30px;
+}
+
+
+
+
+
+#page404 {
+    height: 300px;
+    width: 900px;
+
+}
+
+
+
+#aboutustext {
+    width: 300px;
+}
